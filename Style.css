@@ -1,47 +1,95 @@
-header{
-    background-color:rgb(214, 196, 150);
-    height: 30px;
-    height: 30px;
+*{
+    padding:5px;
+    margin: 0px;
+    box-sizing: border-box;
+
 }
-p{
-    color: rgb(240, 236, 217);
-    text-align: center;
-    }
-nav{
-    background-color:rgb(214, 196, 150);
-    height: 30px;
-    height: 30px;
- 
+
+#logoAndnavigation{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+.navigation {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    padding: 3px;
+    padding-left: 45px;
+    padding-top: 16px;
+
+}
+
+nav ul {
+    float: left;
+}
+ul{
+    list-style: none;
+    padding-top: 21px;
+
+}
+.navigation ul li {
+    float: right;
+    
     
 }
-section{
-    height: 30px;
-    height: 30px;
-    background-color:rgb(214, 196, 150);
-    padding: 0px;
-    margin: 0px;
- 
-}
-footer{
-    height: 30px;
-    height: 30px;
-    background-color:rgb(214, 196, 150);
-  
-}
-ul {
-    display: flex;
-   
-
-}
-ul li {
-
-    list-style: none;
-    display: flex;
-
-}
-nav li{
-    padding: 5px;
-}
-a{
+.navigation ul li a{
+    padding: 0px 10px;
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#Breadcrumbs{
+padding: 10px;
+margin: 10px;
+
+}
+.logoAndnavigation{
+    width: 60px;
+    height: 60px;
+}
+
+.DescriptionOfGame{
+    padding: 10px;
+    margin: 22px;
+}
+#mainOfContent{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.section1{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.section2{   
+    padding: 10px;
+    margin: 5px;
+     border: 2px solid black;
+}
+.section3{    
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+}
+.section4{    
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+}
+#mainOfContent article p span {
+    color:green;
+}
+#Breadcrumbs p a{
+    text-decoration: none;
+}
+.changeColor{
+    color: rgba(97, 95, 95, 0.658)  !important ;
 }
