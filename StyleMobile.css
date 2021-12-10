@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+main{
+    margin: 12px;
+}
+#logoAndnavigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding:20px ;
+
+
+}
+.navigation{
+    padding: 1px;
+    margin-top: 20px;
+
+}
+#logoAndnavigation .logo img {
+    height: 80px;
+    width: 80px;
+}
+#mainOfContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section1 {
+   display: flex;
+   justify-content: center;
+}
+.section2 {
+    display: flex;
+    justify-content: center;
+ }
+ .section3 {
+    display: flex;
+    justify-content: center;
+ }
+ .section4 {
+    display: flex;
+    justify-content: center;
+ }
+ .TitleOfVideo h1{
+     padding: 22px;
+ }

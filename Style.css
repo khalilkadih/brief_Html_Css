@@ -4,12 +4,16 @@
     box-sizing: border-box;
 
 }
+#logoAndnavigation .logo img {
+    height: 90px;
+    width: 90px;
+
+}
 
 #logoAndnavigation{
     padding: 10px;
     margin: 5px;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 .logo{
